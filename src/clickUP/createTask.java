@@ -28,7 +28,7 @@ public class createTask {
 
 		HttpPost request = new HttpPost("https://api.clickup.com/api/v2/list/" + listId + "/task?custom_task_ids=true");
 		request.setHeader("Content-Type", "application/json");
-		request.setHeader("Authorization", "pk_72765396_E4AWD431V2M197PDRG14CYD2EH5GOVJK");
+		request.setHeader("Authorization", "pk_88800087_F2NBC795ZOSXU5G4FEH8MD1X0VM6A9SE");
 
 		JSONObject payload = new JSONObject();
 		payload.put("name", taskName);
@@ -66,7 +66,7 @@ public class createTask {
 		String taskId = subTaskId;
 		HttpPut request = new HttpPut("https://api.clickup.com/api/v2/task/" + taskId);
 		request.setHeader("Content-Type", "application/json");
-		request.setHeader("Authorization", "pk_72765396_E4AWD431V2M197PDRG14CYD2EH5GOVJK");
+		request.setHeader("Authorization", "pk_88800087_F2NBC795ZOSXU5G4FEH8MD1X0VM6A9SE");
 		JSONObject payload = new JSONObject();
 		payload.put("priority", 1);
 		payload.put("parent", mainTaskID);
@@ -83,7 +83,7 @@ public class createTask {
 		// String listId = "901600971152";
 		HttpGet request = new HttpGet(
 				"https://api.clickup.com/api/v2/list/" + listId + "/task?Content-Type=application/json");
-		request.setHeader("Authorization", "pk_72765396_E4AWD431V2M197PDRG14CYD2EH5GOVJK");
+		request.setHeader("Authorization", "pk_88800087_F2NBC795ZOSXU5G4FEH8MD1X0VM6A9SE");
 		String response = EntityUtils.toString(httpClient.execute(request).getEntity());
 
 		// Extract and return task ID from the response
