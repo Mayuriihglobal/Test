@@ -1,21 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="11" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="11" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-23T16:08:56 IST" name="Default suite" finished-at="2024-01-23T16:11:12 IST" duration-ms="136376">
+  <suite started-at="2024-01-23T16:38:04 IST" name="Default suite" finished-at="2024-01-23T16:46:05 IST" duration-ms="480965">
     <groups>
     </groups>
-    <test started-at="2024-01-23T16:08:56 IST" name="Default test" finished-at="2024-01-23T16:11:12 IST" duration-ms="136376">
+    <test started-at="2024-01-23T16:38:04 IST" name="Default test" finished-at="2024-01-23T16:46:05 IST" duration-ms="480965">
       <class name="strongroom.Agedcare">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:08:56 IST" name="setUp" finished-at="2024-01-23T16:09:10 IST" duration-ms="14115" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:38:04 IST" name="setUp" finished-at="2024-01-23T16:38:23 IST" duration-ms="18522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TransferoutImprest()[pri:3, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:09:10 IST" name="TransferoutImprest" finished-at="2024-01-23T16:10:06 IST" duration-ms="55614" status="PASS">
+        <test-method signature="TransferinImprest()[pri:1, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:38:23 IST" name="TransferinImprest" finished-at="2024-01-23T16:39:16 IST" duration-ms="53553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransferinImprest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:39:16 IST" name="tearDown" finished-at="2024-01-23T16:39:25 IST" duration-ms="8418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TransferinImprest status=SUCCESS method=Agedcare.TransferinImprest()[pri:1, instance:strongroom.Agedcare@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TransferinPatient()[pri:2, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:39:25 IST" name="TransferinPatient" finished-at="2024-01-23T16:40:17 IST" duration-ms="51749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransferinPatient -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:40:17 IST" name="tearDown" finished-at="2024-01-23T16:40:23 IST" duration-ms="6804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TransferinPatient status=SUCCESS method=Agedcare.TransferinPatient()[pri:2, instance:strongroom.Agedcare@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TransferoutImprest()[pri:3, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:40:23 IST" name="TransferoutImprest" finished-at="2024-01-23T16:41:19 IST" duration-ms="55537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TransferoutImprest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:10:06 IST" name="tearDown" finished-at="2024-01-23T16:10:15 IST" duration-ms="9011" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:41:19 IST" name="tearDown" finished-at="2024-01-23T16:41:26 IST" duration-ms="6775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="TransferoutPatient()[pri:4, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:10:15 IST" name="TransferoutPatient" finished-at="2024-01-23T16:11:06 IST" duration-ms="50718" status="PASS">
+        <test-method signature="TransferoutPatient()[pri:4, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:41:26 IST" name="TransferoutPatient" finished-at="2024-01-23T16:42:17 IST" duration-ms="50947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TransferoutPatient -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:11:06 IST" name="tearDown" finished-at="2024-01-23T16:11:12 IST" duration-ms="6704" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:42:17 IST" name="tearDown" finished-at="2024-01-23T16:42:23 IST" duration-ms="6617" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +71,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:11:12 IST" name="tearDown" finished-at="2024-01-23T16:11:12 IST" duration-ms="185" status="PASS">
+        <test-method signature="Destroyimprest()[pri:5, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:42:23 IST" name="Destroyimprest" finished-at="2024-01-23T16:43:14 IST" duration-ms="50505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Destroyimprest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:43:14 IST" name="tearDown" finished-at="2024-01-23T16:43:20 IST" duration-ms="6726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Destroyimprest status=SUCCESS method=Agedcare.Destroyimprest()[pri:5, instance:strongroom.Agedcare@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="DestroyPatient()[pri:6, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:43:20 IST" name="DestroyPatient" finished-at="2024-01-23T16:44:06 IST" duration-ms="45657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DestroyPatient -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:44:06 IST" name="tearDown" finished-at="2024-01-23T16:44:13 IST" duration-ms="6507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DestroyPatient status=SUCCESS method=Agedcare.DestroyPatient()[pri:6, instance:strongroom.Agedcare@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Outgoingimprest()[pri:7, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:44:13 IST" name="Outgoingimprest" finished-at="2024-01-23T16:45:03 IST" duration-ms="50246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Outgoingimprest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:45:03 IST" name="tearDown" finished-at="2024-01-23T16:45:10 IST" duration-ms="7075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Outgoingimprest status=SUCCESS method=Agedcare.Outgoingimprest()[pri:7, instance:strongroom.Agedcare@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="OutgoingPatient()[pri:8, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:45:10 IST" name="OutgoingPatient" finished-at="2024-01-23T16:45:56 IST" duration-ms="45681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutgoingPatient -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:45:56 IST" name="tearDown" finished-at="2024-01-23T16:46:05 IST" duration-ms="9427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OutgoingPatient status=SUCCESS method=Agedcare.OutgoingPatient()[pri:8, instance:strongroom.Agedcare@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:strongroom.Agedcare@4d5650ae]" started-at="2024-01-23T16:46:05 IST" name="tearDown" finished-at="2024-01-23T16:46:05 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

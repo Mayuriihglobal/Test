@@ -115,7 +115,7 @@ public class Agedcare extends createTask implements ITestListener {
 
 	}
 
-	@Test(priority = 8, invocationCount = 1, enabled = false)
+	@Test(priority = 8, invocationCount = 1, enabled = true)
 	public void OutgoingPatient() throws InterruptedException {
 
 		
@@ -171,7 +171,7 @@ public class Agedcare extends createTask implements ITestListener {
 		}
 	}
 
-	@Test(priority = 7, invocationCount = 1, enabled = false)
+	@Test(priority = 7, invocationCount = 1, enabled = true)
 	public void Outgoingimprest() throws InterruptedException {
 		stocktakepage.clickStock();
 		stocktakepage.clickStockTake();
@@ -220,7 +220,7 @@ public class Agedcare extends createTask implements ITestListener {
 		}
 	}
 
-	@Test(priority = 6, invocationCount = 1, enabled = false)
+	@Test(priority = 6, invocationCount = 1, enabled = true)
 	public void DestroyPatient() throws InterruptedException {
 		stocktakepage.clickStock();
 		stocktakepage.clickStockTake();
@@ -277,7 +277,7 @@ public class Agedcare extends createTask implements ITestListener {
 		
 	}
 
-	@Test(priority = 5, invocationCount = 1, enabled = false)
+	@Test(priority = 5, invocationCount = 1, enabled = true)
 	public void Destroyimprest() throws InterruptedException {
 		
 		stocktakepage.clickStock();
@@ -430,7 +430,7 @@ public class Agedcare extends createTask implements ITestListener {
 		}
 	}
 
-	@Test(priority = 2, invocationCount = 1, enabled = false)
+	@Test(priority = 2, invocationCount = 1, enabled = true)
 	public void TransferinPatient() throws InterruptedException {
 		stocktakepage.clickStock();
 		stocktakepage.clickStockTake();
@@ -499,7 +499,7 @@ public class Agedcare extends createTask implements ITestListener {
 		}
 	}
 
-	@Test(priority = 1, invocationCount = 1, enabled = false)
+	@Test(priority = 1, invocationCount = 1, enabled = true)
 	public void TransferinImprest() throws InterruptedException {
 		
 		stocktakepage.clickStock();
